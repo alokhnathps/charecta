@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charecta</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Charecta</h1>
+    </header>
+    <div class="container">
+      <h2>Text Analyzer</h2>
+      <textarea
+        id="textInput"
+        placeholder="Type or paste your text here..."
+      ></textarea>
+      <div class="focusKeywordInput">
+        <label for="focusKeyword"
+          >Enter Focus Keywords (separate by commas):</label
+        >
+        <input
+          type="text"
+          id="focusKeyword"
+          placeholder="Type focus keyword(s)"
+        />
+      </div>
+      <div class="counter">
+        <p>Word Count: <span id="wordCount">0</span></p>
+        <p>Character Count: <span id="charCount">0</span></p>
+        <p>Sentence Count: <span id="sentenceCount">0</span></p>
+        <p>Paragraph Count: <span id="paragraphCount">0</span></p>
+        <p>Focus Keyword Density:</p>
+        <ul id="keywordDensity"></ul>
+      </div>
+      <button id="clearButton">Clear</button>
+    </div>
+    <footer>
+      <p>&copy; 2025 Charecta. All rights reserved.</p>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

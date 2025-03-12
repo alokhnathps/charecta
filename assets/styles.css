@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  background: #f15c06;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px 0;
+  flex: 1;
+}
+
+textarea {
+  width: 90%;
+  height: 150px;
+  margin: 10px 0 15px 0;
+  padding: 15px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  resize: none;
+  font-size: 16px;
+  background: #f9f9f9;
+}
+
+.focusKeywordInput {
+  margin: 10px 0;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  font-size: 16px;
+  background: #f9f9f9;
+}
+
+.counter {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.counter p {
+  margin: 8px 0;
+}
+
+button {
+  margin-top: 12px;
+  padding: 12px 25px;
+  border: none;
+  background: #dd0902;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #e92309;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #222;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+#keywordDensity li {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#keywordDensity li:hover {
+  background-color: #f1f1f1;
+}
